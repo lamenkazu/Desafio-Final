@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smothing: grayscale;
+}
+
+:root{
+    font-size: 62.5%;
+    
+    --base-bg-white: white;
+    --base-bg-input: rgba(255, 255, 255, 0.20);
+    --base-bg-light: #387E96;
+    --base-bg-dark: #065E7C;
+    --base-txt-title: #202024;
+    --base-txt-p: #121214;
+}
+
+:root, input{
+    font-family: 'Mulish', sans-serif;
+}
+
+body{
+    font-size: 1.6rem;
+}
